@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="inner-warpper text-center">
+    <div class="logomit">
+      <img src="mit.png" width="100px" height="100px">
+    </div>
+    <h2 class="title">Login to your account</h2>
+    <!-- Update the action attribute to point to your PHP script -->
+    <!-- <form action="login.php" method="post" id="formvalidate"> -->
+      <div class="input-group">
+        <label class="palceholder" for="email">Email</label>
+        <input class="form-control" name="email" id="email" type="email" placeholder="" />
+        <span class="lighting"></span>
+      </div>
+      <div class="input-group">
+        <label class="palceholder" for="password">Password</label>
+        <input class="form-control" name="password" id="password" type="password" placeholder="" />
+        <span class="lighting"></span>
+      </div>
+      <button type="submit" id="login">Login</button>
+      <div class="clearfix supporter">
+        <div class="pull-left remember-me">
+          <input id="rememberMe" type="checkbox">
+          <label for="rememberMe">Remember Me</label>
+        </div>
+        <a class="forgot pull-right" href="#">Forgot Password?</a>
+      </div>
+    </form>
+  </div>
+
+</div>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js'></script>
+<script src="script.js"></script>
+</body>
+</html>
